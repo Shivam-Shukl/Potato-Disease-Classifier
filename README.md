@@ -1,25 +1,25 @@
-# Potato Leaf Disease Classifier
+# Potato Leaf Disease Classification using CNN
 
 ## Problem Statement
 
-Farmers face significant economic losses and crop waste every year due to diseases affecting potato crops. Two major leaf diseases — Early Blight and Late Blight — are responsible for a large portion of the yield loss.
+Farmers worldwide face significant economic losses and crop waste due to various diseases affecting potato plants. Early blight and late blight are among the most devastating diseases that impact potato leaves, causing substantial yield losses annually. Traditional methods of disease identification are often time-consuming, require expert knowledge, and may not provide timely diagnosis for effective intervention.
 
-Manual disease detection is slow, error-prone, and impractical for large-scale farms. There is a growing need for an automated and scalable solution that can detect these diseases early to help farmers take timely action.
-
-## Objective
-
-To develop a Convolutional Neural Network (CNN)-based image classification model that accurately classifies potato leaf images into three categories:
-
-- Healthy
-- Early Blight
-- Late Blight
+The challenge is to develop an automated, accurate, and scalable solution that can:
+- Quickly identify potato leaf diseases from images
+- Distinguish between healthy leaves and diseased ones
+- Classify specific disease types (early blight vs. late blight)
+- Enable early detection for timely treatment
+- Be accessible to farmers regardless of their technical expertise
 
 ## Solution Overview
 
-- Used a CNN model trained on a publicly available potato leaf dataset.
-- Achieved an accuracy of 97%–100% across test images.
-- Model can classify potato leaf diseases with high precision and robustness.
-- Helps farmers in early and accurate detection, preventing further crop damage.
+This project implements a Convolutional Neural Network (CNN) model to classify potato leaf images into three distinct categories:
+1. **Healthy** - Normal, disease-free potato leaves
+2. **Early Blight** - Leaves affected by early blight disease
+3. **Late Blight** - leaves affected by late blight disease
+
+The solution leverages deep learning techniques to automatically extract features from leaf images and provide accurate disease classification, enabling farmers to make informed decisions about crop management.
+
 
 ## Key Features
 
@@ -36,6 +36,10 @@ To develop a Convolutional Neural Network (CNN)-based image classification model
 - Matplotlib / Seaborn (for visualization)
 - Jupyter Notebook
 
+### Early Detection Capabilities
+- Enables **early and accurate detection** of disease symptoms
+- Helps farmers take **timely and targeted actions**
+- Reduces crop loss through preventive measures
 ## Sample Predictions
 
 *( )*
