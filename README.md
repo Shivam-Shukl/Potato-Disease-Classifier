@@ -38,14 +38,9 @@ To develop a Convolutional Neural Network (CNN)-based image classification model
 
 ## Sample Predictions
 
-*(Add sample leaf images and predicted labels here once available)*
+*( )*
 
-## Future Work
 
-- Expand the dataset for more variety and better generalization.
-- Test under real-world field conditions (lighting, blur, background noise).
-- Develop a mobile/web app interface for easier use by farmers.
-- Enhance model robustness and real-time prediction efficiency.
 
 ## Folder Structure
 
